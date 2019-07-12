@@ -10,6 +10,8 @@ import Foundation
 import AVFoundation
 import Photos
 
+// File class that handles local file information
+// It's subclassed by class Medium and Subtitle
 class File {
 	
 	let path: String
